@@ -1,0 +1,35 @@
+.cart{
+    position: relative;
+    left: 115px;
+ }
+ .nav-foto{
+    overflow: hidden;
+    width:1230px;
+  }
+  
+  .nav-foto .ul-foto {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-foto .li-foto {
+    float: left;
+
+  }
+  
+  .nav-foto .li-foto .a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav-foto .ul-foto  .li-foto img{
+    width: 350px;
+  }
+  
+
+.lego{
+    width: 35px;
+}

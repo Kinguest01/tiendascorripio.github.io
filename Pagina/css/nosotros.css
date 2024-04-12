@@ -1,0 +1,109 @@
+body{
+    background: #e9e7e7;
+}
+.containe {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text{
+    width: 530px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.image {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.valo{
+    font-size: 10px;
+}
+.img {
+    width: 100%;
+    height: auto;
+    top: 79px;
+    position: relative;
+    box-shadow: 6px 6px 7px 0px #ED1B24;
+}
+@media screen and (max-width: 768px) {
+    .text, .image {
+        width: 100%;
+        float: none;
+    }
+}
+.naranja{
+    color: #ED1B24;
+}
+.n{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 139px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: #ED1B24 2px 2px 3px;
+}
+.a{
+    color: rgb(155, 155, 155);
+}
+.es{
+    position: relative;
+    left: 149px
+}
+ul.otro{
+    padding-left: 150px;
+}
+.naranja{
+    color:#ED1B24;
+    text-decoration: none;
+}
+/****Cartas de mision y valores ***/
+.containe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.box{
+    height: 175px;
+    width: 474px;
+    border-radius: 20px;
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    padding: 10px 15px 10px 10px;
+    box-shadow: -6px -8px 30px rgba(0,0,0,0.2);
+}
+.icon{
+    height:110px;
+    width: 150px;
+    top: 46px;
+    position: relative;
+}
+.icon i{
+    font-size: 60px;
+    color: #ED1B24;
+}
+.details{
+    height: 110px;
+}
+.details h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin:3px;
+    text-align: center;
+}
+.details p {
+    text-align: justify;
+}
+
+
+
+

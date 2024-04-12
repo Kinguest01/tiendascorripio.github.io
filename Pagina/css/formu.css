@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+  text-decoration: none;
+}
+body{
+  background: #f0f0f0;
+}
+form {
+    width: 1150px;
+    margin: 0 auto;
+    font-family: sans-serif
+  }
+  
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    color: #333;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .k{
+    text-align: left;
+  }
+.abajo{
+  width: 100%;
+  top: -50px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.alo{
+  position: relative;
+  top: -30px;
+}
+.lado{
+  position: relative;
+  left: 690px;
+  margin: -100px;
+  top: -83px;
+
+  width: max-content;
+
+}
+.titulo{
+  color: #3a3939;
+  font-size: 24px;
+}
+  .label {
+    display: block;
+    font-size: small;
+    padding: 5px;
+    color: #5f5f5f;
+    margin-bottom: 5px;
+  }
+.la{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+  .colo{
+    background: #d32f12;
+    height: 40px;
+    position: relative;
+    text-align: left;
+    color: #fff
+  }
+  
+  .lo{
+    background: #d32f12;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    color: #fff
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    height: 28px;
+    width: 545px;
+  }
+
+  input[type="adreess"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    height: 28px;
+    width: 1138px;
+  }
+  .for {
+    position: relative;
+    left: 630px;
+    top: -90px;
+    margin: -39.5px;
+    width: max-content;
+}
+
+  input[type="submit"] {
+    border: solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 40px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+  /***Menu***/
+
+
+
+  
+  
+  header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+} 
+
+.text-formu{
+  color:#d32f12 ;
+}
+  /*menu__superior*/
+  
+  .header__superior{
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  .logo img{
+      width: 199px;
+  }
+  
+  .search input {
+      width: 300px;
+      padding: 10px;
+      border: solid #c2c1c1 1px;
+  }
+  
+  
+  /*BARRA MENU*/
+  .container_menu{
+  width: 100%;
+  height: 70px;
+  background:#e72f2f;
+  padding: 0px 20px;
+  }
+  .menu{
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+      position: relative;
+      text-decoration: none;
+  }
+  
+  .p {
+      width: 63px;
+      margin: 2px 5px 3px 3px;
+  }
+  
+  
+  .fa-gem:before {
+      content: "\f3a5";
+      left: -136px;
+      position: relative;
+      top: -26px;
+  }
+  
+  .nav-menu{
+      height: 100%;
+   }
+   .nav-menu > .ul-menu{
+      height: 100%;
+      display: flex;
+   }
+   .nav-menu  .ul-menu  .li-menu{
+      height: 100%;
+      list-style: none;
+      position: relative;
+   }
+  
+   .nav-menu > .ul-menu > .li-menu:first-child > .a-menu{
+      background-image: url(../img/hogar.png);
+      background-size: 24px;
+      background-repeat:no-repeat ;
+      background-position: center center;
+      padding: 20px 40px;
+   }
+  
+   .nav-menu > .ul-menu > .li-menu:first-child:hover> .a-menu{
+      background-image: url(../img/hogar\ rojo.png);
+      background-size: 24px;
+      background-repeat:no-repeat ;
+      background-position: center center;
+   }
+  
+   .nav-menu > .ul-menu > .li-menu > .a-menu{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 14px;
+      text-transform: uppercase;
+      color: white;
+      transition: all 300ms ease;
+   }
+  
+   .nav-menu > .ul-menu > .li-menu > .a-menu:hover{
+      transform: scale(1.1);
+      background:#ffffff;
+      text-decoration: none;
+      color: #e72f2f;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  #selected{
+      transform: scale(1.1);
+      background-color:#ffffff;
+      background-image: url(../img/hogar\ rojo.png);
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+      color: #d32f12;
+  }
+  
+  /*SUBMENU*/
+  
+  .nav-menu .ul-menu .li-menu .ul-menu {
+      width: 200px;
+      display: flex;
+      flex-direction:column;
+      background: #fff;
+      position: absolute;
+      top: 90px;
+      left: -5px;
+      padding: 14px 0px;
+      visibility: hidden;
+      opacity: 0;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+      z-index: 10;
+      transition: all 300ms ease;
+      }
+  
+      .nav-menu .ul-menu .li-menu:hover .ul-menu{
+          visibility: visible;
+          opacity: 1;
+          top: 70px;
+      }
+  
+      .nav-menu .ul-menu .li-menu .ul-menu::before{
+          content: '';
+          width: 0;
+          height: 0;
+          border-left: 12px solid transparent;
+          border-right: 12px solid transparent;
+          border-bottom: 12px solid white;
+          position: absolute;
+          top: -12px;
+          left: 20px;
+      }
+  
+      .nav-menu ul .li-menu ul .li-menu .a-menu{
+          display: block;
+          color: rgb(0, 0, 0);
+          padding: 6px;
+          padding-left: 14px;
+          margin-top: 10px;
+          font-size: 14px;
+          text-transform: uppercase;
+          transition: all 300ms ease;
+      }
+  
+      .nav-menu .ul-menu .li-menu .ul-menu .li-menu .a-menu:hover{
+          background: #e72f2f;
+          color: #fff;
+          transform: scale(1.1);
+          text-decoration: none;
+          padding-left: 30px;
+          font-size: 14px;
+          box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+      }
+  
+  .im{
+      width:1200px;
+      margin: 60px;
+  }
+  .lego{
+      width: 35px;
+      text-align: center;
+  }
+  
+  .ler{
+      text-align: center;
+      font-size: 35px;
+      text-shadow: #e72f2f 1px 1px 2px;
+  }
+      /*elementos responsivos*/
+  
+      .icon__menu{
+          font-size: 26px;
+          color: white;
+          cursor: pointer;
+          width: 26px;
+          height: 100%;
+          display: flex;
+          display: none;
+          align-items: center;
+      }
+  
+      #check__menu{
+          display: none;
+      }
+  
+  
+      #label__check{
+          width: 26px;
+          height: 100%;
+      }
+  
+       @media screen and ( max-width: 720px){
+          .search input{
+              display: none;
+          }
+  
+          .header__superior{
+              padding: 10px;
+          }
+  
+          .logo img{
+              width: 200px;
+          }
+          .nav-menu > .ul-menu{
+            flex-direction: column;
+            background-color: #e72f2f;
+            position: fixed;
+            left: 0;
+            top: 158px;
+            width: 100%;
+            height: 0px;
+            transition: all 300ms ease;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+          }
+  
+  
+          .nav-menu > .ul-menu > .li-menu > .a-menu:hover{
+              transform: scale(1);
+          }
+  
+          .nav-menu  .ul-menu .li-menu .ul-menu {
+              left: 90px;
+          }
+  
+          .nav-menu >  .ul-menu > .li-menu:first-child .a-menu{
+              background-position: 20px;
+          }
+  
+          #selected{
+              transform: scale(1);
+          }
+          #label__check{
+              display: block;
+          }
+  
+          .icon__menu{
+              display: flex;
+          }
+          #check__menu:checked ~ .nav-menu >  .ul-menu{
+              height: 300px;
+              visibility: visible;
+              opacity: 1;
+          }
+          
+          
+  }
+          
